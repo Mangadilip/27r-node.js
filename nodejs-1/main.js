@@ -8,7 +8,7 @@ const http = require("http")
 
 
 const server = http.createServer((req, res)=>{
-    res.write("hello world")
+    res.write("welcome to the my new project")
     res.end("")
 });
 server.listen("3102",()=>{
