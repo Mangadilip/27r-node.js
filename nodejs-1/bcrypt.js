@@ -32,3 +32,14 @@ fs.readFile('./password.txt', 'utf-8', (err, data) => {
         });
     }
 });
+
+
+
+
+
+
+// Hashing is important for securely storing passwords.
+// Bcrypt is used to hash and compare passwords.
+// Asynchronous file handling is done using fs.writeFile and fs.readFile.
+// Salt rounds (10) make hashing more secure.
+// Password comparison ensures security without storing plain-text passwords.
